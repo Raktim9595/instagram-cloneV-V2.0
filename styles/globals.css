@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .header__icons-right {
+    @apply text-gray-500 hidden md:inline-flex h-6 w-6 hover:text-gray-800 transition-all duration-200 cursor-pointer ease-out;
+  }
+
+  .feed-btns {
+    @apply h-7 hover:scale-125 cursor-pointer transition-all duration-150 ease-out text-gray-700 hover:text-black;
+  }
+}
